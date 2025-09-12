@@ -1,0 +1,28 @@
+html{
+    width: 100%;
+    background-color: rgb(35, 35, 35);
+    color:white;
+}
+
+#word{
+    border:white 1px solid;
+    margin:8%;
+    padding: 5px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1em;
+}
+#word h2{
+    width: 40px;
+    border:none;
+    border-bottom: white 1px solid;
+    text-align: center;
+}
+#controls{
+    display: flex;
+    justify-content: center;
+    gap:1em;
+    flex-direction: row;
+}
